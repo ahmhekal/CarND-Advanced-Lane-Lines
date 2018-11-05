@@ -26,7 +26,7 @@ The goals / steps of this project are the following:
 [image5]: ./output_images/lanes.png "Fit Visual"
 [image6]: ./output_images/final.jpg "Output"
 [image7]: ./camera_cal/calibration1.jpg "original distorted"
-[image8]: ./straight_lines1.jpg "Road with straight lines"
+[image8]: ./test_images/straight_lines1.jpg "Road with straight lines"
 
 
 [video1]: ./output_videos/project_video.mp4 "Output Video"
@@ -114,7 +114,7 @@ I verified that my perspective transform was working as expected by drawing the 
 I passed the binary thresholded image to the function called 'Detect_Lanes()' which starts from line 142 in the second cell of the "Source.ipynb" file.
 
 this is the binary thresholded image
-[image3]: ./output_images/binary.jpg "Binary Example"
+![alt text][image3]:
 
 Then I did some other stuff and fit my lane lines with a 2nd order (polynomial one polunomial for each line), then I used it to fill a polygon in the area between the two lines with green color.
 
@@ -149,7 +149,7 @@ Here is an example of my result on a test image:
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./output_videos/project_video.mp4)
 
 ---
 
