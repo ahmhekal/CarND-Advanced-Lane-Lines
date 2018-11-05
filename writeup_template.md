@@ -22,6 +22,8 @@ The goals / steps of this project are the following:
 [image3]: ./output_images/binary.jpg "Binary Example"
 [image4]: ./output_images/warped_color.jpg "Warp Example straight lines color"
 [image9]: ./output_images/warped.jpg "Warped Binary"
+[image10]: ./output_images/undestorted.jpg "undestorted"
+
 
 [image5]: ./output_images/lanes.png "Fit Visual"
 [image6]: ./output_images/final.jpg "Output"
@@ -67,6 +69,10 @@ the original distorted image :
 
 To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
 ![alt text][image2]
+
+The undistorted image : 
+![alt text][image10]
+
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
 
