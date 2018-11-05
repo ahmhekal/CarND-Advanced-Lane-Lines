@@ -26,10 +26,10 @@ The goals / steps of this project are the following:
 [image5]: ./output_images/lanes.png "Fit Visual"
 [image6]: ./output_images/final.jpg "Output"
 [image7]: ./camera_cal/calibration1.jpg "original distorted"
-[image8]: ./output_images/straight_undestorted.jpg "Road with straight lines"
+[image8]: ./straight_lines1.jpg "Road with straight lines"
 
 
-[video1]: ./project_video.mp4 "Video"
+[video1]: ./output_videos/project_video.mp4 "Output Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -103,7 +103,7 @@ dst = np.float32(
 
 
 I verified that my perspective transform was working as expected by drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.
-- original undestorted image
+- original image
 ![alt text][image8]
 
 
@@ -114,7 +114,7 @@ I verified that my perspective transform was working as expected by drawing the 
 I passed the binary thresholded image to the function called 'Detect_Lanes()' which starts from line 142 in the second cell of the "Source.ipynb" file.
 
 this is the binary thresholded image
-![alt text][image5]
+[image3]: ./output_images/binary.jpg "Binary Example"
 
 Then I did some other stuff and fit my lane lines with a 2nd order (polynomial one polunomial for each line), then I used it to fill a polygon in the area between the two lines with green color.
 
